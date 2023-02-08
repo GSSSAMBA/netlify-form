@@ -21,8 +21,8 @@ const Navbar = () => {
 
                 <li ><a href='#home' className='navbar__item slideInDown-1 nav-link navbar__link effet' onClick={handleShowLinks}><i className="fa-solid fa-house"></i></a>
                 </li>
-                <li ><a href='#hello' className='navbar__item slideInDown-1 nav-link navbar__link effet' onClick={handleShowLinks}><i className="fa-solid fa-address-card"></i></a>
-                </li>
+                {/* <li ><a href='#hello' className='navbar__item slideInDown-1 nav-link navbar__link effet' onClick={handleShowLinks}><i className="fa-solid fa-address-card"></i></a>
+                </li> */}
                 {/* <li ><a href='#work' className='navbar__item slideInDown-1 nav-link navbar__link effet' onClick={handleShowLinks}><i className="fa-solid fa-briefcase"></i></a>
                 </li> */}
                 <li ><a href='#skills' className='navbar__item slideInDown-1 nav-link navbar__link effet' onClick={handleShowLinks}><i className="fa-solid fa-screwdriver-wrench"></i></a>
