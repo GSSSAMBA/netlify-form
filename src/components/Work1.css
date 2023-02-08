@@ -1,6 +1,5 @@
-.contenant {
+/* .contenant {
     width: 100%;
-    /* border: 2px solid blue; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,7 +31,6 @@
     justify-content: center;
     align-items: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    /* background-color: #faf2f2; */
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -51,7 +49,6 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     position: relative;
     overflow: hidden;
-    /* background-color: #faf2f2; */
 
 }
 
@@ -64,7 +61,6 @@
     justify-content: center;
     align-items: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    /* background-color: #faf2f2; */
     position: relative;
     overflow: hidden;
 
@@ -72,7 +68,6 @@
 
 .top-box {
     position: absolute;
-    /* border: 3px solid black; */
     width: 300px;
     height: 300px;
     background-color: #e22bb61a;
@@ -81,7 +76,6 @@
     justify-content: center;
     align-items: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    /* background-color: #faf2f2; */
     cursor: pointer;
     visibility: hidden;
     transition-duration: .5s;
@@ -103,7 +97,6 @@
 }
 
 .text-contenu {
-    /* background-color: red; */
     width: 290px;
     display: flex;
     justify-content: center;
@@ -113,25 +106,19 @@
 }
 
 .small-box:hover .contenu {
-    /* display: block; */
     margin-top: 0rem;
-    /* transition-duration: .5s; */
     margin-left: 0rem;
 
 }
 
 .small-box1:hover .contenu {
-    /* display: block; */
     margin-top: 0rem;
-    /* transition-duration: .5s; */
     margin-left: 0rem;
 
 }
 
 .small-box2:hover .contenu {
-    /* display: block; */
     margin-top: 0rem;
-    /* transition-duration: .5s; */
     margin-left: 0rem;
 
 }
@@ -179,7 +166,6 @@
     border: 5px solid #ff00bc40;
 }
 
-/* --------------------------------------------------------------------- */
 
 
 .small-box1:hover {
@@ -198,8 +184,309 @@
 .image-size {
     width: 200px;
     transition: margin-top 0.8s;
+}
 
-    /* transition: margin-left 0.8s; */
+#work {
+    margin-bottom: 10rem;
+}
+
+@media(max-width:1020px) {
+    .small-box {
+        margin-bottom: 3rem;
+
+    }
+
+    .small-box1 {
+        margin-bottom: 3rem;
+
+    }
+
+    .small-box2 {
+        margin-bottom: 3rem;
+
+    }
+}
+
+@media(max-width:300px) {
+    .small-box {
+        width: 250px;
+    }
+
+    .small-box1 {
+        width: 250px;
+    }
+} */
+
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.contenant {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #faf2f2;
+
+}
+
+.petit-contenant {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    border: 2px solid #faf2f2;
+    border-radius: 2rem;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+
+
+.small-box {
+    width: 300px;
+    height: 300px;
+    background-color: #e22bb61a;
+    border-radius: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.small-box1 {
+    width: 300px;
+    height: 300px;
+    background-color: #2be2a34a;
+    border-radius: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.small-box2 {
+    width: 300px;
+    height: 300px;
+    background-color: #b12be24a;
+    border-radius: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.top-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #e22bb61a;
+    border-radius: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    visibility: hidden;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    margin-left: 40rem;
+    -webkit-transition: margin-left 0.8s;
+    -o-transition: margin-left 0.8s;
+    transition: margin-left 0.8s;
+}
+
+.contenu {
+    position: absolute;
+    color: black;
+    margin-left: 40rem;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition: margin-left 0.8s;
+    -o-transition: margin-left 0.8s;
+    transition: margin-left 0.8s;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.text-contenu {
+    width: 290px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 290px;
+    color: rgb(80, 30, 75);
+}
+
+.small-box:hover .contenu {
+    margin-top: 0rem;
+    margin-left: 0rem;
+
+}
+
+.small-box1:hover .contenu {
+    margin-top: 0rem;
+    margin-left: 0rem;
+
+}
+
+.small-box2:hover .contenu {
+    margin-top: 0rem;
+    margin-left: 0rem;
+
+}
+
+
+.small-box:hover .top-box {
+    background-color: #e22bb61a;
+    visibility: visible;
+    margin-left: 0rem;
+}
+
+.small-box1:hover .top-box {
+    background-color: #e22bb61a;
+    visibility: visible;
+    margin-left: 0rem;
+}
+
+.small-box2:hover .top-box {
+    background-color: #e22bb61a;
+    visibility: visible;
+    margin-left: 0rem;
+}
+
+.small-box:hover .image-size {
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    margin-top: 40rem;
+    -webkit-transition: margin-top 0.8s;
+    -o-transition: margin-top 0.8s;
+    transition: margin-top 0.8s;
+}
+
+.small-box1:hover .image-size {
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    margin-top: 40rem;
+    -webkit-transition: margin-top 0.8s;
+    -o-transition: margin-top 0.8s;
+    transition: margin-top 0.8s;
+}
+
+.small-box2:hover .image-size {
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    margin-top: 40rem;
+    -webkit-transition: margin-top 0.8s;
+    -o-transition: margin-top 0.8s;
+    transition: margin-top 0.8s;
+}
+
+
+
+.small-box:hover {
+    border: 5px solid #ff00bc40;
+}
+
+
+
+.small-box1:hover {
+    border: 5px solid #2be2a34a;
+    cursor: pointer;
+
+}
+
+
+
+.small-box2:hover {
+    border: 5px solid #b12be24a;
+    cursor: pointer;
+}
+
+.image-size {
+    width: 200px;
+    -webkit-transition: margin-top 0.8s;
+    -o-transition: margin-top 0.8s;
+    transition: margin-top 0.8s;
 }
 
 #work {
