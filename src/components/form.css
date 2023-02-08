@@ -1,0 +1,36 @@
+/* .contact {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.contact__form input,
+.contact__form textarea,
+.contact__form button {
+    margin: 0.3rem 0 1rem 0;
+    padding: .3rem;
+}
+
+.contact__form button {
+    font-size: 1.2rem;
+}
+
+.global-contact {
+    background-color: #faf2f2;
+}
+
+
+
+.global-contact:hover {
+    background-color: #501e4b;
+
+    transition: background-color 600ms ease-in-out;
+    -webkit-transition: background-color 600ms ease-in-out;
+    -moz-transition: background-color 600ms ease-in-out;
+    -o-transition: background-color 600ms ease-in-out;
+} */
