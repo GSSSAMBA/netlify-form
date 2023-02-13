@@ -2,15 +2,15 @@ import React from 'react';
 // import './skills.css'
 import './deal.css'
 
-import react from '../images/react.png'
-import html from '../images/html.png'
-import css from '../images/css.png'
-import javascript from '../images/javascript.png'
-import node from '../images/node.png'
-import Mongodb from '../images/Mongodb.png'
-import github from '../images/github.png'
-import trello from '../images/trello.png'
-import sass from '../images/sass.png'
+// import react from '../images/react.png'
+// import html from '../images/html.png'
+// import css from '../images/css.png'
+// import javascript from '../images/javascript.png'
+// import node from '../images/node.png'
+// import Mongodb from '../images/Mongodb.png'
+// import github from '../images/github.png'
+// import trello from '../images/trello.png'
+// import sass from '../images/sass.png'
 
 const Skills = () => {
     return (
