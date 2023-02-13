@@ -37,7 +37,6 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a href='#contact'><div className=" btn refonte1" onClick={handleShowLinks}>CONTACT</div></a>
-                    {/* <a href='#contact'><div className="btn" onClick={handleShowLinks}><i class="fa-solid fa-address-book"></i></div></a> */}
                     {/* <a href='#contact'><div className="btn" onClick={handleShowLinks}>Contact</div></a> */}
                 </li>
             </ul>

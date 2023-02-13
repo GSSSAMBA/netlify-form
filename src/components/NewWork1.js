@@ -16,13 +16,15 @@ import media from '../images/media.png'
 import piment from '../images/piment.webp'
 import grey from '../images/grey.jpg'
 import flix1 from '../images/flix1.webp'
-import ischia from '../images/ischia.jpg'
-import space1 from '../images/space1.webp'
+// import ischia from '../images/ischia.jpg'
+// import space1 from '../images/space1.webp'
 import yanko from '../images/yanko.jpg'
 import pastel from '../images/pastel.jpg'
 // import food from '../images/food.webp'
 import dalmata from '../images/dalmata.jfif'
 import piment2 from '../images/piment2.jpg'
+import noir from '../images/noir.jpg'
+import eau from '../images/eau.webp'
 
 const NewWork1 = () => {
     return (
@@ -32,9 +34,9 @@ const NewWork1 = () => {
                     <img className='image-taille abso' src={ticket} alt="imgfond" ></img>
 
                     <div className='the-box'></div>
-                    <div className='petit-contenu1 gris'>
+                    <div className='petit-contenu1 white'>
                         <p className='text-pic1 net-text'>
-                            <span className='under1'>NETFLIX CLONE</span>
+                            <span className='under1 white'>NETFLIX CLONE</span>
                         </p>
                         <div className='liste-div1'>
                             <p>
@@ -76,26 +78,26 @@ const NewWork1 = () => {
                                 </ul>
                             </p>
                         </div>
-                        <img className='fond-gris' src={ischia} alt=''></img>
+                        <img className='fond-gris' src={eau} alt=''></img>
                     </div>
                 </div>
                 <div className='taille-box2'><img className='image-une' src={invader10} alt="imgfond" ></img>
                     <div className='the-box'></div>
-                    <div className='petit-contenu1 blue'>
+                    <div className='petit-contenu1 white'>
                         <p className='text-pic2 invader-text'>
                             <span className='under1'>SPACE INVADER CLONE</span>
                         </p>
                         <div className='liste-div1'>
                             <p>
                                 <ul className='liste refonte '>
-                                    <li className='puce'>Reproduction du jeu<br></br> <br></br>SPACE INVADER</li><br></br>
+                                    <li className='puce'>Reproduction du jeu<br></br> <br></br>SPACE INVADER.</li><br></br>
                                     <li className='puce1'>Only Desktop.</li><br></br>
                                     <li className='puce'>JAVASCRIPT.</li><br></br>
                                     {/* <li className='puce'>TEXT</li> */}
                                 </ul>
                             </p>
                         </div>
-                        <img className='fond-gris' src={space1} alt=''></img>
+                        <img className='fond-gris' src={noir} alt=''></img>
                     </div>
                     {/* <div className='petit-contenu'>
                         <div className=''>
@@ -107,7 +109,7 @@ const NewWork1 = () => {
             <div className='work-container'>
                 <div className='taille-box2'><img className='image-une' src={world} alt="imgfond" ></img>
                     <div className='the-box'></div>
-                    <div className='petit-contenu1 blue'>
+                    <div className='petit-contenu1 white'>
                         <p className='text-pic2 world-text'>
                             <span className='under1'>ALGORITHME DE TRI</span>
                         </p>
@@ -136,7 +138,7 @@ const NewWork1 = () => {
                 <div className='taille-box2'><img className='image-une' src={pupetta} alt="imgfond" ></img>
                     <img className='image-taille abso3' src={omf} alt="imgfond" ></img>
                     <div className='the-box'></div>
-                    <div className='petit-contenu1 blue'>
+                    <div className='petit-contenu white'>
                         <p className='text-pic2
                          food-text'>
                             <span className='under1'>OH MY FOOD</span>
@@ -167,7 +169,7 @@ const NewWork1 = () => {
                     <img className='image-une' src={banniere} alt="imgfond" ></img>
                     <img className='image-taille abso3' src={KANAP} alt="imgfond" ></img>
                     {/* <div className='the-box'></div> */}
-                    <div className='petit-contenu'>
+                    <div className='petit-contenu '>
                         <p className='text-pic'>
                             <span className='under2'>KANAP</span>
                         </p>
