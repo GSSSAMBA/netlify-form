@@ -1,7 +1,7 @@
 import React from 'react';
 import './newwork1.css'
 
-import mur from '../images/mur.jpg'
+// import mur from '../images/mur.jpg'
 import tablette from '../images/tablette.jpeg'
 import booki2 from '../images/booki2.jpg'
 import ticket from '../images/ticket.png'
@@ -20,7 +20,7 @@ import ischia from '../images/ischia.jpg'
 import space1 from '../images/space1.webp'
 import yanko from '../images/yanko.jpg'
 import pastel from '../images/pastel.jpg'
-import food from '../images/food.webp'
+// import food from '../images/food.webp'
 import dalmata from '../images/dalmata.jfif'
 import piment2 from '../images/piment2.jpg'
 

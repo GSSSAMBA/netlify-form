@@ -3,14 +3,14 @@ import './Work1.css'
 import './work.css'
 
 
-import netflix from '../images/netflix.png'
-import booki1 from '../images/booki1.png'
-import invader2 from '../images/invader2.png'
-import map1 from '../images/map1.png'
-import omf from '../images/omf.png'
-import piment1 from '../images/piment1.png'
-import social1 from '../images/social1.png'
-import KANAP1 from '../images/KANAP1.png'
+// import netflix from '../images/netflix.png'
+// import booki1 from '../images/booki1.png'
+// import invader2 from '../images/invader2.png'
+// import map1 from '../images/map1.png'
+// import omf from '../images/omf.png'
+// import piment1 from '../images/piment1.png'
+// import social1 from '../images/social1.png'
+// import KANAP1 from '../images/KANAP1.png'
 
 const Work1 = () => {
     return (
