@@ -16,6 +16,7 @@ const Skills = () => {
     return (
         <div>
             <div className='big-deal-container'>
+                <h4 id='skills' className="work"><span className="underline">SKILLS <i class="fa-solid fa-screwdriver-wrench"></i></span> </h4>
                 <div className='big-deal'>
                     <div className='deal-container'>
                         <div className='deal-container1'>

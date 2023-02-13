@@ -198,6 +198,12 @@
     height: 37%;
 }
 
+.abso20 {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+}
+
 .text-display {
     position: relative;
     display: flex;
@@ -437,6 +443,22 @@
     .taille-box2 {
         margin-bottom: 3rem;
 
+    }
+
+    .abso {
+        width: 75%;
+        height: 62%;
+    }
+
+    .abso1 {
+        width: 35%;
+        height: 20%;
+    }
+
+
+    .abso3 {
+        width: 37%;
+        height: 36%;
     }
 }
 

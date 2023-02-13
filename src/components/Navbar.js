@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css'
 import { useState } from 'react';
 import buf from '../images/buf.png'
+// import détouré from '../images/détouré.png'
 
 
 const Navbar = () => {
@@ -14,7 +15,8 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-            <img className='lion' src={buf} alt="imgfond" ></img>
+            <a href='#work'>
+                <img className='lion' src={buf} alt="imgfond" ></img></a>
 
 
             <ul className='navbar__links'>
@@ -34,11 +36,12 @@ const Navbar = () => {
                     {/* <li ><a href='#work' className='navbar__item slideInDown-1 nav-link navbar__link effet' onClick={handleShowLinks}><i className="fa-solid fa-briefcase"></i></a> */}
                 </li>
                 <li>
-                    <a href='#contact'><div className="btn refonte1" onClick={handleShowLinks}>CONTACT</div></a>
+                    <a href='#contact'><div className=" btn refonte1" onClick={handleShowLinks}>CONTACT</div></a>
                     {/* <a href='#contact'><div className="btn" onClick={handleShowLinks}><i class="fa-solid fa-address-book"></i></div></a> */}
                     {/* <a href='#contact'><div className="btn" onClick={handleShowLinks}>Contact</div></a> */}
                 </li>
             </ul>
+
 
 
 

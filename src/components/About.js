@@ -7,6 +7,10 @@ import location from '../images/location.png'
 const About = () => {
     return (
         <div>
+            <section>
+                <a href='https://www.linkedin.com/in/gauthier-samba-seale-b6286b247/?originalSubdomain=fr'>  <div className='social'>LinkedIn <i className="fa-brands fa-linkedin"></i></div></a>
+                <a href='https://github.com/GSSSAMBA'>  <div className='social1'>Github <i className="fa-brands fa-github"></i></div></a>
+                <a href="mailto:gauthieredc@gmail.com">   <div className='social2'>E-mail <i className="fa-regular fa-envelope"></i></div></a></section>
             <div id='home' className="about-container">
                 <div className='centrer-present'>
                     <div className='about-name'>

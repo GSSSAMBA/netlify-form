@@ -6,6 +6,7 @@ import linkedin from '../images/linkedin.png'
 import phone from '../images/phone.png'
 import mail1 from '../images/mail1.png'
 
+
 const Contact = () => {
 
     return (

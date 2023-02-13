@@ -1,3 +1,91 @@
+.social {
+    width: 250px;
+    height: 65px;
+    position: fixed;
+    top: 6rem;
+    /* background-color: rgb(37 99 235); */
+    background-color: #501e4b;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: -10rem;
+    color: white;
+    transition: margin-left 2s;
+    transition-duration: .5s;
+    border-radius: 1rem;
+    z-index: 3;
+
+}
+
+.social:hover {
+    margin-left: -15px;
+}
+
+.social1 {
+    width: 250px;
+    height: 65px;
+    position: fixed;
+    top: 10rem;
+    /* background-color: rgb(51 51 51); */
+    background-color: #a750a0;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: -10rem;
+    z-index: 3;
+    color: white;
+    transition: margin-left 2s;
+    transition-duration: .5s;
+    border-radius: 1rem;
+}
+
+.social2 {
+    width: 250px;
+    height: 65px;
+    position: fixed;
+    top: 14rem;
+    background-color: #a767e5;
+    /* background-color: rgb(177 136 31); */
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: -10rem;
+    color: white;
+    transition: margin-left 2s;
+    transition-duration: .5s;
+    border-radius: 1rem;
+    z-index: 3;
+}
+
+.social1:hover {
+    margin-left: -15px;
+}
+
+.social2:hover {
+    margin-left: -15px;
+}
+
+@media (max-width:768px) {
+
+    .social,
+    .social1,
+    .social2 {
+        display: none;
+    }
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+    font-size: 3rem;
+}
+
 /* .about-container {
     width: 100%;
     justify-content: center;
@@ -487,6 +575,8 @@
 * Browsers: last 4 version
 */
 
+
+
 .about-container {
     width: 100%;
     -webkit-box-pack: center;
@@ -517,6 +607,7 @@
 .centrer-present {
     width: 70%;
     height: auto;
+    position: relative;
 }
 
 .about-name {
