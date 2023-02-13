@@ -1,0 +1,134 @@
+.work-container {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top1 {
+    width: 100%;
+    background-color: black;
+    width: 60%;
+    height: 68%;
+}
+
+.img-mur {
+    width: 100%;
+    background-color: black;
+    height: 307%;
+}
+
+.img-top {}
+
+.top2 {
+    width: 200px;
+    height: 200px;
+}
+
+.top3 {
+    /* width: 100%; */
+    height: 200px;
+    visibility: hidden;
+    /* display: none; */
+    margin-left: 1000px;
+    transition-duration: .5s;
+    transition: margin-left 0.8s;
+}
+
+/* .work-container:hover .top3 {
+    visibility: visible;
+    margin-left: 0px;
+    display: block;
+    width: 100%;
+    margin-top: -617px;
+
+} */
+
+.top1:hover .top3 {
+    visibility: visible;
+    margin-left: 0px;
+    display: block;
+    width: 100%;
+    margin-top: -617px;
+}
+
+
+/* .work-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+}
+
+.box1 {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.top2 {
+    background-color: green;
+    width: 0%;
+    height: 100%;
+    visibility: hidden;
+    transition-duration: .5s;
+    margin-left: 2060px;
+    transition: margin-left 0.8s;
+
+}
+
+.box-container:hover .top2 {
+    visibility: visible;
+    margin-left: 0px;
+    width: 100%;
+
+} */
+
+/* .work-container {
+    width: 100%;
+    border: 3px solid blue;
+    height: 300px;
+    display: flex;
+}
+
+.box-container {
+    width: 100%;
+    border: 2px solid green;
+    display: flex;
+}
+
+.box1 {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.top2 {
+    background-color: green;
+    width: 0%;
+    height: 100%;
+    visibility: visible;
+    transition-duration: .5s;
+    margin-left: 2060px;
+    transition: margin-left 0.8s;
+    border: 2px solid red;
+
+}
+
+.box-container:hover .top2 {
+    visibility: visible;
+    margin-left: 0px;
+    border: 5px solid greenyellow;
+    width: 100%;
+
+} */

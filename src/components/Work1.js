@@ -17,7 +17,7 @@ const Work1 = () => {
         <div className='contenant'>
             <h4 id='work' className="work"><span className="underline">Work <i className="fa-solid fa-code"></i></span> </h4>
 
-            <div className='petit-contenant'>
+            {/* <div className='petit-contenant'>
                 <a href='https://gsssamba.github.io/FRONT-NETFLIX-v1/'>
                     <div className='small-box'>
                         <img className='image-size' src={netflix} alt="imgfond" ></img>
@@ -25,7 +25,6 @@ const Work1 = () => {
                         <div className='contenu'>
                             <div className='text-contenu'>
                                 <p>Reproduction de l'interface NETFLIX<br /><br />Utilisation d'API donnant accés au données Américaine en temps réel.<br /><br />REACT JS
-                                    {/* <br />Donnant accés au donnés<br />Américaine en temps réel<br />WWWWNNNNN<br />WWWWNNNNN */}
                                 </p>
                             </div>
                         </div>
@@ -49,20 +48,20 @@ const Work1 = () => {
                             </p>
                         </div></div>
                     </div></a>
-            </div>
-            <div className='petit-contenant'>
+            </div> */}
+            {/* <div className='petit-contenant'>
                 <a href='https://gsssamba.github.io/FLAG-EX/'>
                     <div className='small-box1'><img className='image-size' src={map1} alt="imgfond" ></img>
                         <div className='top-box'></div><div className='contenu'> <div className='text-contenu'>
                             <p>Algorithme de tri des Nations<br /><br />Selon le continent
-                                <br /><br />Et le nombre d'habitants<br />
+                                <br /><br />et le nombre d'habitants<br /><br />REACT JS
                             </p>
                         </div></div></div></a>
                 <a href='https://0h-my-food.netlify.app/'>
                     <div className='small-box1'><img className='image-size' src={omf} alt="imgfond" ></img>
                         <div className='top-box'></div><div className='contenu'> <div className='text-contenu'>
                             <p>Oh my Food<br /><br />Site de reservation de restaurant<br />
-                                <br />HTML<br /><br />CSS
+                                <br />HTML<br />CSS
                             </p>
                         </div></div></div></a>
                 <div className='small-box1'><img className='image-size' src={KANAP1} alt="imgfond" ></img>
@@ -74,8 +73,8 @@ const Work1 = () => {
                             </p>
                         </div>
                     </div></div>
-            </div>
-            <div className='petit-contenant'>
+            </div> */}
+            {/* <div className='petit-contenant'>
                 <div className='small-box2'><img className='image-size' src={piment1} alt="imgfond" ></img>
                     <div className='top-box'></div>
                     <div className='contenu'>
@@ -94,15 +93,7 @@ const Work1 = () => {
                                 <br /><br />Deploiement à venir</p>
                         </div>
                     </div></div>
-                {/* <div className='small-box2'><img className='image-size' src={booki1} alt="imgfond" ></img>
-                    <div className='top-box'></div><div className='contenu'>
-                        <div className='text-contenu'>
-                            <p>Clone de space invader<br />WWWWNNNNN
-                                <br />WWWWNNNNN<br />WWWWNNNNN<br />WWWWNNNNN<br />WWWWNNNNN
-                            </p>
-                        </div>
-                    </div></div> */}
-            </div>
+            </div> */}
         </div>
 
 

@@ -283,7 +283,8 @@
 }
 
 .btn:hover {
-    background-color: rgb(134 115 161);
+    /* background-color: rgb(134 115 161); */
+    background-color: rgb(0 0 0 / 60%);
     color: white;
     cursor: pointer;
     -webkit-transition: -webkit-transform 800ms;
@@ -301,4 +302,10 @@
 
 ul {
     list-style-type: none;
+}
+
+.refonte1 {
+    font-weight: 600;
+    font-size: 15px;
+    color: cornsilk;
 }

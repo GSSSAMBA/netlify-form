@@ -1,5 +1,6 @@
 import React from 'react';
-import './skills.css'
+// import './skills.css'
+import './deal.css'
 
 import react from '../images/react.png'
 import html from '../images/html.png'
@@ -14,36 +15,166 @@ import sass from '../images/sass.png'
 const Skills = () => {
     return (
         <div>
-            <div className='phone-content'>
-                <h2 id='skills' className='skills'><span className='underline'>SKILLS <i className="fa-solid fa-screwdriver-wrench"></i></span></h2>
-                <div className="phone">
-                    <div className="phone-mirror">
-                        <div className="topWrapper">
-                            <div className="camera"></div>
-                            <div className="line-rec"></div>
+            <div className='big-deal-container'>
+                <div className='big-deal'>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-react turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>REACT JS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"Framework de prédilection pour réaliser des interfaces dynamiques."</p>
                         </div>
-                        <div className="big-container">
-                            <div className="box-container">
-                                <div className='colonne'>
-                                    <div className="box"><img className='img-skill' src={html} alt="imgfond" ></img></div><p className='skill-text'>HTML</p></div>
-                                <div className='colonne'>
-                                    <div className="box"><img className='img-skill' src={javascript} alt="imgfond" ></img></div><p className='skill-text'>JAVASCRIPT</p></div>
-                                <div className='colonne'> <div className="box"><img className='img-skill' src={react} alt="imgfond" ></img></div><p className='skill-text'>REACT</p></div>
+                    </div>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-square-js turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>JAVASCRIPT</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="box-container">
-                                <div className='colonne'> <div className="box"><img className='img-skill' src={node} alt="imgfond" ></img></div><p className='skill-text'>NODE</p></div>
-                                <div className='colonne'> <div className="box"><img className='img-skill' src={Mongodb} alt="imgfond" ></img></div><p className='skill-text'>MONGODB</p></div>
-                                <div className='colonne'> <div className="box"><img className='img-skill' src={css} alt="imgfond" ></img></div><p className='skill-text'>CSS</p></div>
+                            <p className='p'>"Indispensable et incontournable."</p>
+                        </div>
+                    </div>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-node turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>NODE JS</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="box-container">
-                                <div className='colonne'> <div className="box"><img className='img-skill' src={sass} alt="imgfond" ></img></div><p className='skill-text'>SASS</p></div>
-                                <div className='colonne'> <div className="box"><img className='img-skill' src={github} alt="imgfond" ></img></div><p className='skill-text'>GITHUB</p></div>
-                                <div className='colonne'> <div className="box"><img className='img-skill' src={trello} alt="imgfond" ></img></div><p className='skill-text'>TRELLO</p></div>
-                            </div>
+                            <p className='p'>"Sans lui mon backend n'existerait pas."</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div className='big-deal-container'>
+                <div className='big-deal'>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-html5 turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>HTML</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"Sans fondateur, pas de fondations."</p>
+                        </div>
+                    </div>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-css3-alt turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>CSS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"Des paillettes dans ma vie."</p>
+                        </div>
+                    </div>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-sass turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>SCSS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"Trop d'imbrication tue l'imbrication."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='big-deal-container'>
+                <div className='big-deal'>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-solid fa-database turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>MONGO.DB</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"DATA? DATA...DATA !"</p>
+                        </div>
+                    </div>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-github turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>GITHUB</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"Je versionne, tu versionnes, il versionne, et ....push."</p>
+                        </div>
+                    </div>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-trello turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>TRELLO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"L'organisation de la tache facile."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='big-deal-container'>
+                <div className='big-deal'>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-brands fa-php turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>PHP</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"La base"</p>
+                        </div>
+                    </div>
+                    <div className='deal-container'>
+                        <div className='deal-container1'>
+                            <i class="fa-solid fa-table turn andjaro"></i>
+                            <div className='deal-content'>
+                                <div className='small-content'>
+                                    <div className='small-content'>
+                                        <p className='react'>MYSQL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='p'>"Indispensable"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     );
 };

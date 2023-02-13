@@ -4,8 +4,8 @@ import About from './About';
 import Contact from './Contact';
 import Navbar from './Navbar';
 import Skills from './Skills';
-// import Work from './Work';
-// import Form from './Form';
+import NewWork1 from './NewWork1';
+
 
 const Home = () => {
     return (
@@ -14,8 +14,9 @@ const Home = () => {
             <About />
             <Skills />
             <Work1 />
+            {/* <NewWork /> */}
+            <NewWork1 />
             <Contact />
-            {/* <Form /> */}
         </div >
 
     );

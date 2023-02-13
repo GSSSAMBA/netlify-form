@@ -379,7 +379,7 @@
     flex-direction: column;
 }
 
-.text-contenu {
+/* .text-contenu {
     width: 290px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -392,6 +392,22 @@
     align-items: center;
     height: 290px;
     color: rgb(80, 30, 75);
+} */
+.text-contenu {
+    width: 290px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 290px;
+    /* color: rgb(80, 30, 75); */
+    color: black;
+    font-size: 16px;
 }
 
 .small-box:hover .contenu {

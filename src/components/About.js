@@ -32,8 +32,11 @@ const About = () => {
 
                     </div>
                 </div>
-                <a href='#skills'>
-                    <button className='btn-about'><span>EN SAVOIR PLUS <i className="fa-solid fa-arrow-right"></i></span></button></a>
+                {/* <a href='#skills'>
+                    <button className='btn-about'><span>EN SAVOIR PLUS <i className="fa-solid fa-arrow-right"></i></span></button></a> */}
+                <a href='#work'>
+                    <button className='bouton'><span>PROJETS <i className="fa-solid fa-arrow-right"></i></span></button>
+                </a>
             </div>
         </div >
     )

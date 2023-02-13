@@ -299,10 +299,10 @@
 .contact-container:hover {
     background-color: #501e4b;
 
-    transition: background-color 600ms ease-in-out;
-    -webkit-transition: background-color 600ms ease-in-out;
-    -moz-transition: background-color 600ms ease-in-out;
-    -o-transition: background-color 600ms ease-in-out;
+    transition: background-color 900ms ease-in-out;
+    -webkit-transition: background-color 900ms ease-in-out;
+    -moz-transition: background-color 900ms ease-in-out;
+    -o-transition: background-color 900ms ease-in-out;
 }
 
 
@@ -491,20 +491,28 @@
     transform: scale(1.1);
     background-color: #faf2f2;
     color: black;
+    font-weight: 700;
 }
 
 .global-contact {
     background-color: #faf2f2;
     width: 100%;
+    /* display: none; */
 }
+
+/* .global-contact {
+    background-color: #faf2f2;
+    width: 100%;
+} */
 
 .contact-container:hover .global-contact {
     background-color: #501e4b;
 
-    transition: background-color 600ms ease-in-out;
-    -webkit-transition: background-color 600ms ease-in-out;
-    -moz-transition: background-color 600ms ease-in-out;
-    -o-transition: background-color 600ms ease-in-out;
+    transition: background-color 900ms ease-in-out;
+    -webkit-transition: background-color 900ms ease-in-out;
+    -moz-transition: background-color 900ms ease-in-out;
+    -o-transition: background-color 900ms ease-in-out;
+    /* display: block; */
 }
 
 .form-color {

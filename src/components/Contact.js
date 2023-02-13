@@ -13,8 +13,8 @@ const Contact = () => {
             <div className='small-container'>
                 <p className='project'>Vous avez un projet ?</p>
 
-                <p className='discuss'><span className='under'>Discutons en.</span>
-                </p>
+                <a href='#contact'>    <p className='discuss'><span className='under'>Discutons en.</span>
+                </p></a>
             </div>
 
             {/* <div className='footer-img'>
@@ -24,7 +24,7 @@ const Contact = () => {
                 <a a href='https://www.linkedin.com/in/gauthier-samba-seale-b6286b247/?originalSubdomain=fr'><img className='footer-icon phone1' src={linkedin} alt="imgfond" ></img></a>
             </div> */}
             <div className='global-contact'>
-                <div className='contact'>
+                <div id='contact' className='contact'>
                     <form name="contact" method="post" className='contact__form'
                         data-netlify="true" onSubmit="submit">
 

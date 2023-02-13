@@ -858,6 +858,31 @@
 }
 
 
+.bouton {
+    /* background-color: #501e4b; */
+    /* color: white; */
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    border-color: #501e4b;
+    color: #501e4b;
+    /* background-color: rgba(157, 94, 255, 0.24); */
+    background-color: #faf2f2;
+}
+
+.bouton:hover {
+    cursor: pointer;
+    border-color: #a767e5;
+    color: #a767e5;
+}
+
+.bouton:hover .fa-arrow-right {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #a767e5;
+}
+
 @media(max-width: 1500px) {
     .name {
         font-size: 60px;
@@ -865,6 +890,10 @@
 
     .about-name {
         font-size: 60px;
+    }
+
+    .bouton {
+        margin-top: 50px;
     }
 }
 
@@ -1041,6 +1070,10 @@
         margin-left: 0;
     }
 
+    .bouton {
+        margin-top: 30px;
+    }
+
 
 
     @-webkit-keyframes fade-in {
@@ -1146,6 +1179,8 @@
 
 
 }
+
+
 
 /* @media(max-width:560px) {
     .redhot {

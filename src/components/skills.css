@@ -230,8 +230,8 @@
     background-color: #faf2f2;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    /* -ms-flex-direction: column;
+    flex-direction: column; */
 }
 
 .phone {
@@ -517,4 +517,9 @@
     .phone-mirror {
         height: 545px;
     }
+}
+
+.skills-content {
+    flex-direction: column;
+    background-color: #faf2f2;
 }
