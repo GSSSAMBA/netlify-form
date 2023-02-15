@@ -30,141 +30,146 @@ const NewWork1 = () => {
     return (
         <div>
             <div className='work-container'>
-                <div className='taille-box2 rela'><img className='image-une' src={tablette} alt="imgfond" ></img>
-                    <img className='image-taille abso' src={ticket} alt="imgfond" ></img>
+                <a href='https://gsssamba.github.io/FRONT-NETFLIX-v1/'>
+                    <div className='taille-box2 rela'><img className='image-une' src={tablette} alt="imgfond" ></img>
+                        <img className='image-taille abso' src={ticket} alt="imgfond" ></img>
 
-                    <div className='the-box'></div>
-                    <div className='petit-contenu1 white'>
-                        <p className='text-pic1 net-text'>
-                            <span className='under1 white'>NETFLIX CLONE</span>
-                        </p>
-                        <div className='liste-div1'>
-                            <p>
-                                <ul className='liste'>
-                                    <li className='puce'>Reproduction de l'interface NETFLIX.</li><br></br>
-                                    <li className='puce1'>Requete API pour obtenir les données américaine en temps réels.</li><br></br>
-                                    <li className='puce'>React JS.</li><br></br>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                        <div className='the-box'></div>
+                        <div className='petit-contenu1 white'>
+                            <p className='text-pic1 net-text'>
+                                <span className='under1 white'>NETFLIX CLONE</span>
                             </p>
+                            <div className='liste-div1'>
+                                <p>
+                                    <ul className='liste'>
+                                        <li className='puce'>Reproduction de l'interface NETFLIX.</li><br></br>
+                                        <li className='puce1'>Requete API pour obtenir les données américaine en temps réels.</li><br></br>
+                                        <li className='puce'>React JS.</li><br></br>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={flix1} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={flix1} alt=''></img>
-                    </div>
-                    {/* <div className='petit-contenu'>
+                        {/* <div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={mur} alt="imgfond" ></img>
 
                         </div>
                     </div> */}
-                </div>
-                <div className='taille-box2'><img className='image-une' src={booki2} alt="imgfond" ></img>
-                    <img className='image-taille abso1' src={booki} alt="imgfond" ></img>
-                    <div className='the-box'></div>
-                    {/* <div className='petit-contenu'>
+                    </div></a>
+                <a href='https://bookiii.netlify.app/'>
+                    <div className='taille-box2'><img className='image-une' src={booki2} alt="imgfond" ></img>
+                        <img className='image-taille abso1' src={booki} alt="imgfond" ></img>
+                        <div className='the-box'></div>
+                        {/* <div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={mur} alt="imgfond" ></img>
                         </div>
                     </div> */}
-                    <div className='petit-contenu white'>
-                        <p className='text-pic2 holiday-text'>
-                            <span className='under1'>BOOKI</span>
-                        </p>
-                        <div className='liste-div1'>
-                            <p>
-                                <ul className='liste'>
-                                    <li className='puce'>Site One page de reservation de voyages.</li><br></br>
-                                    <li className='puce1'>HTML/CSS.</li><br></br>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                        <div className='petit-contenu white'>
+                            <p className='text-pic2 holiday-text'>
+                                <span className='under1'>BOOKI</span>
                             </p>
+                            <div className='liste-div1'>
+                                <p>
+                                    <ul className='liste'>
+                                        <li className='puce'>Site One page de reservation de voyages.</li><br></br>
+                                        <li className='puce1'>HTML/CSS.</li><br></br>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={eau} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={eau} alt=''></img>
-                    </div>
-                </div>
-                <div className='taille-box2'><img className='image-une' src={invader10} alt="imgfond" ></img>
-                    <div className='the-box'></div>
-                    <div className='petit-contenu1 white'>
-                        <p className='text-pic2 invader-text'>
-                            <span className='under1'>SPACE INVADER CLONE</span>
-                        </p>
-                        <div className='liste-div1'>
-                            <p>
-                                <ul className='liste refonte '>
-                                    <li className='puce'>Reproduction du jeu<br></br> <br></br>SPACE INVADER.</li><br></br>
-                                    <li className='puce1'>Only Desktop.</li><br></br>
-                                    <li className='puce'>JAVASCRIPT.</li><br></br>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                    </div></a>
+                <a href='http://invader-gss.tk/'>
+                    <div className='taille-box2'><img className='image-une' src={invader10} alt="imgfond" ></img>
+                        <div className='the-box'></div>
+                        <div className='petit-contenu1 white'>
+                            <p className='text-pic2 invader-text'>
+                                <span className='under1'>SPACE INVADER CLONE</span>
                             </p>
+                            <div className='liste-div1'>
+                                <p>
+                                    <ul className='liste refonte '>
+                                        <li className='puce'>Reproduction du jeu<br></br> <br></br>SPACE INVADER</li><br></br>
+                                        <li className='puce1'>Only Desktop.</li><br></br>
+                                        <li className='puce'>JAVASCRIPT.</li><br></br>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={noir} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={noir} alt=''></img>
-                    </div>
-                    {/* <div className='petit-contenu'>
+                        {/* <div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={space1} alt="imgfond" ></img>
                         </div>
                     </div> */}
-                </div>
+                    </div></a>
             </div>
             <div className='work-container'>
-                <div className='taille-box2'><img className='image-une' src={world} alt="imgfond" ></img>
-                    <div className='the-box'></div>
-                    <div className='petit-contenu1 white'>
-                        <p className='text-pic2 world-text'>
-                            <span className='under1'>ALGORITHME DE TRI</span>
-                        </p>
-                        <div className='liste-div1'>
-                            <p>
-                                <ul className='liste puce3'>
-                                    <li className='puce'>Tri des nations en fonction du continent et du nombre d'habitants
-                                        <br></br>
-                                        <br></br>
-                                        Requete API pour obtenir l'evolution du nombre d'habitants en temps réel
-                                        <br></br>
-                                        <br></br>
-                                        REACT JS</li>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                <a href='https://gsssamba.github.io/FLAG-EX/'>
+                    <div className='taille-box2'><img className='image-une' src={world} alt="imgfond" ></img>
+                        <div className='the-box'></div>
+                        <div className='petit-contenu1 white'>
+                            <p className='text-pic2 world-text'>
+                                <span className='under1'>ALGORITHME DE TRI</span>
                             </p>
+                            <div className='liste-div1'>
+                                <p>
+                                    <ul className='liste puce3'>
+                                        <li className='puce'>Tri des nations en fonction du continent et du nombre d'habitants
+                                            <br></br>
+                                            <br></br>
+                                            Requete API pour obtenir l'evolution du nombre d'habitants en temps réel
+                                            <br></br>
+                                            <br></br>
+                                            REACT JS</li>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={yanko} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={yanko} alt=''></img>
-                    </div>
-                    {/* <div className='petit-contenu'>
+                        {/* <div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={space1} alt="imgfond" ></img>
                         </div>
                     </div> */}
-                </div>
-                <div className='taille-box2'><img className='image-une' src={pupetta} alt="imgfond" ></img>
-                    <img className='image-taille abso3' src={omf} alt="imgfond" ></img>
-                    <div className='the-box'></div>
-                    <div className='petit-contenu white'>
-                        <p className='text-pic2
+                    </div></a>
+                <a href='https://0h-my-food.netlify.app/'>
+                    <div className='taille-box2'><img className='image-une' src={pupetta} alt="imgfond" ></img>
+                        <img className='image-taille abso3' src={omf} alt="imgfond" ></img>
+                        <div className='the-box'></div>
+                        <div className='petit-contenu white'>
+                            <p className='text-pic2
                          food-text'>
-                            <span className='under1'>OH MY FOOD</span>
-                        </p>
-                        <div className='liste-div1'>
-                            <p>
-                                <ul className='liste puce3'>
-                                    <li className='puce'>Réservez vos menu dans vos restaurants préférés
-                                        <br></br>
-                                        <br></br>
-                                        Site dynamique
-                                        <br></br>
-                                        <br></br>
-                                        HTML/CSS</li>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                                <span className='under1'>OH MY FOOD</span>
                             </p>
+                            <div className='liste-div1'>
+                                <p>
+                                    <ul className='liste puce3'>
+                                        <li className='puce'>Réservez vos menu dans vos restaurants préférés
+                                            <br></br>
+                                            <br></br>
+                                            Site dynamique
+                                            <br></br>
+                                            <br></br>
+                                            HTML/CSS</li>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={dalmata} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={dalmata} alt=''></img>
-                    </div>
-                    {/* <div className='petit-contenu'>
+                        {/* <div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={space1} alt="imgfond" ></img>
                         </div>
                     </div> */}
-                </div>
+                    </div></a>
                 <div className='taille-box2'>
                     <img className='image-une' src={banniere} alt="imgfond" ></img>
                     <img className='image-taille abso3' src={KANAP} alt="imgfond" ></img>

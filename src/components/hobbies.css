@@ -1,0 +1,76 @@
+/* .grand-container {
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: orange;
+    opacity: 0.7;
+}
+
+.global-hobbies {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: orange;
+    opacity: 0.4;
+    height: 100vh;
+}
+
+.hobbies-container {
+    width: 300px;
+    height: 400px;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-bottom: 3rem;
+    background-color: #add8e65e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hobbies-container1 {
+    width: 300px;
+    height: 400px;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-bottom: 3rem;
+    background-color: #add8e65e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.détouré {
+    width: 100%;
+}
+
+#hobbies {
+    margin-bottom: 8rem;
+}
+
+.love {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fa-futbol {
+    font-size: 70px;
+    color: tomato;
+}
+
+@media(max-width:768px) {
+    .hobbies-container {
+        width: 250px;
+    }
+} */
