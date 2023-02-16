@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Skills from './Skills';
 import NewWork1 from './NewWork1';
 import Rideau from './Rideau';
+import Me from './Me';
 // import Hobbies from './Hobbies';
 
 
@@ -14,6 +15,7 @@ const Home = () => {
         <div>
             <Navbar />
             <About />
+            <Me />
             <Rideau />
             {/* <Hobbies /> */}
             <Skills />

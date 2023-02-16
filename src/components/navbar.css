@@ -31,13 +31,13 @@
 }
 
 
-.lion:hover {
+/* .lion:hover {
     -webkit-animation: rotate-90-cw .4s cubic-bezier(.25, .46, .45, .94) both;
     animation: rotate-90-cw .4s cubic-bezier(.25, .46, .45, .94) both;
     -webkit-animation: slide-right 1s ease 0s 1 normal none;
     animation: slide-right 1s ease 0s 1 normal none;
 
-}
+} */
 
 @-webkit-keyframes slide-right {
 

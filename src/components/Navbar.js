@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-            <a href='#work'>
+            <a href='#home'>
                 <img className='lion' src={buf} alt="imgfond" ></img></a>
 
 

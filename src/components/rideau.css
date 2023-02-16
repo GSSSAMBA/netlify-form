@@ -157,7 +157,7 @@
 
 .globe-box {
     width: 350px;
-    height: 400px;
+    height: 500px;
     border: 2px solid white;
     display: flex;
     flex-direction: column;
@@ -210,13 +210,34 @@
     font-family: 'Lato', sans-serif;
     padding-top: 5rem;
     text-shadow: 1px 1px 2px black;
+}
 
+.aboutme4 {
+    width: auto;
+    color: #501e4b;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    font-family: 'Lato', sans-serif;
+    padding-top: 5rem;
+    /* text-shadow: 1px 1px 2px black; */
+}
 
+.underline {
+    border-bottom: 2px solid #501e4b;
+}
 
+.underline2 {
+    border-bottom: 2px solid #501e4b;
 }
 
 #aboutme {
     margin-bottom: 10rem;
+}
+
+#aboutme2 {
+    margin-bottom: 5rem;
 }
 
 .green {
@@ -255,6 +276,14 @@
 
     .content {
         display: none;
+    }
+
+    .underline2 {
+        border-bottom: 0px;
+    }
+
+    .underline {
+        border-bottom: 0px;
     }
 }
 

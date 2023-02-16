@@ -38,8 +38,8 @@ const About = () => {
                 </div>
                 {/* <a href='#skills'>
                     <button className='btn-about'><span>EN SAVOIR PLUS <i className="fa-solid fa-arrow-right"></i></span></button></a> */}
-                <a href='#aboutme'>
-                    <button className='bouton'><span>Wsh Orphé click <i className="fa-solid fa-arrow-right"></i></span></button>
+                <a href='#work'>
+                    <button className='bouton'><span>PROJETS<i className="fa-solid fa-arrow-right"></i></span></button>
                 </a>
                 {/* <a href='#work'>
                     <button className='bouton'><span>PROJETS <i className="fa-solid fa-arrow-right"></i></span></button>

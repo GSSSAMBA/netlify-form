@@ -35,7 +35,7 @@ function Rideau() {
                 {!buttonClicked && (
                     <div>
                         <h4 id='aboutme' className="aboutme titre-hobbies">
-                            <span className="underline">ABOUT ME <i className="fa-solid fa-code"></i></span>
+                            <span className="underline">ABOUT<i className="fa-solid fa-code"></i></span>
                         </h4>
 
                         <div className="aboutme2 titre-hobbies2">Désireux d'en savoir plus ??</div>
