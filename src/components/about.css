@@ -10,7 +10,7 @@
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-    margin-left: -10rem;
+    margin-left: -11rem;
     color: white;
     transition: margin-left 2s;
     transition-duration: .5s;
@@ -21,7 +21,8 @@
 }
 
 .social:hover {
-    margin-left: -15px;
+    /* margin-left: -15px; */
+    margin-left: -10px;
 }
 
 .social1 {
@@ -36,7 +37,7 @@
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-    margin-left: -10rem;
+    margin-left: -11rem;
     z-index: 3;
     color: white;
     transition: margin-left 2s;
@@ -58,7 +59,7 @@
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-    margin-left: -10rem;
+    margin-left: -11rem;
     color: white;
     transition: margin-left 2s;
     transition-duration: .5s;
@@ -69,11 +70,13 @@
 }
 
 .social1:hover {
-    margin-left: -15px;
+    /* margin-left: -15px; */
+    margin-left: -10px;
 }
 
 .social2:hover {
-    margin-left: -15px;
+    /* margin-left: -15px; */
+    margin-left: -10px;
 }
 
 @media (max-width:768px) {
@@ -1276,12 +1279,24 @@
 
 }
 
-.fa-github {
+/* .fa-github {
     margin-left: 25px;
-}
+} */
+
+/* .fa-envelope {
+    margin-left: 35px;
+} */
 
 .fa-envelope {
-    margin-left: 35px;
+    margin-left: 60px;
+}
+
+.fa-github {
+    margin-left: 50px;
+}
+
+.fa-linkedin {
+    margin-left: 30px;
 }
 
 

@@ -16,7 +16,7 @@ a {
 
 .me-container {
     /* border: 2px solid red; */
-    width: 53%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     /* border: 2px solid black; */
@@ -34,7 +34,7 @@ a {
 
 .me-container2 {
     /* border: 2px solid red; */
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -49,6 +49,14 @@ a {
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 
 
+}
+
+.between {
+    display: flex;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .me-me {
@@ -71,7 +79,8 @@ a {
 .me-me2 {
     width: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* justify-content: center; */
     align-items: center;
     /* background-color: lightgray; */
     /* border-radius: 50%; */
@@ -86,13 +95,35 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    box-shadow: 2px 4px 6px #444;
+
+}
+
+.rotate1 {
+    transform: rotate(10deg);
+
+}
+
+.rotate2 {
+    transform: rotate(-5deg);
+
+}
+
+.rotate3 {
+    transform: rotate(15deg);
+
+}
+
+.rotate4 {
+    transform: rotate(10deg);
 
 }
 
 .me-me3 {
     width: 300px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
     align-items: center;
     /* background-color: lightgray; */
     /* border-radius: 50%; */
@@ -127,7 +158,7 @@ a {
 @media(max-width:1100px) {
     .me-container {
 
-        width: 80%;
+        width: 10;
     }
 
     .me-container2 {
@@ -137,29 +168,7 @@ a {
 }
 
 
-@media(max-width:768px) {
-    .me-container {
-        /* flex-direction: column; */
-        align-items: center;
-        width: 80%;
-    }
 
-    .me-container2 {
-        /* flex-direction: column; */
-        align-items: center;
-        width: 80%;
-    }
-
-    .me-me2 {
-        width: 200px;
-        margin-top: 30px;
-    }
-
-    .me-me3 {
-        width: 190px;
-        margin-top: 30px;
-    }
-}
 
 .hob {
     font-weight: 700;
@@ -232,4 +241,37 @@ a {
 .forma-box:hover {
     background-color: #f39eeb;
 
+}
+
+@media(max-width:768px) {
+    .me-container {
+        /* flex-direction: column; */
+        align-items: center;
+        width: 80%;
+    }
+
+    .me-container2 {
+        /* flex-direction: column; */
+        align-items: center;
+        width: 80%;
+    }
+
+    .me-me2 {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .me-me3 {
+        width: 190px;
+        margin-top: 30px;
+    }
+
+    .rotate1 {
+        transform: rotate(0deg);
+
+    }
+
+    .between {
+        width: 90%;
+    }
 }

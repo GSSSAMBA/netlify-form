@@ -14,19 +14,21 @@ const Me = () => {
                     <span className="underline2">ABOUT ME <i class="fa-solid fa-address-card"></i></span>
                 </h4>
                 <div className='me-container'>
-                    <div className='me-me'>
-                        <img className='pic-me' src={cvpic} alt="detour" />
-                    </div>
-                    <div className='me-me2'>
-                        <p className='hob'>ABOUT ME</p>
-                        <p className='hob-para'>Passioné d'informatique de multimédia et de nouvelles technologies je me consacre
-                            à plein temps au developpement web et à la création de site.<br />Avec un penchant pour le
-                            développement FRONT-END
-                        </p>
+                    <div className='between'>
+                        <div className='me-me'>
+                            <img className='pic-me' src={cvpic} alt="detour" />
+                        </div>
+                        <div className='me-me2 rotate1'>
+                            <p className='hob'>ABOUT ME</p>
+                            <p className='hob-para'>Passioné d'informatique de multimédia et de nouvelles technologies je me consacre
+                                à plein temps au developpement web et à la création de site.<br />Avec un penchant pour le
+                                développement FRONT-END
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div className='me-container2'>
-                    <div className='me-me2 radius '>
+                    <div className='me-me2 radius  '>
                         <p className='hob'>CV EN BREF</p>
                         <p className='hob-para'>
                             Par le passé j'ai été directeur de plusieurs restaurant.
@@ -42,7 +44,7 @@ const Me = () => {
                             <br />
                         </p>
                     </div>
-                    <div className='me-me3 radius'>
+                    <div className='me-me3 radius '>
                         <p className='hob'>PENDANT MON TEMPS LIBRE</p>
                         <p className='hob-para'>
                             Course à pied, vélo, football,handball cinéma, théatre et surtout refaire le monde entre amis.

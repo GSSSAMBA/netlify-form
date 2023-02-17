@@ -237,6 +237,10 @@
     align-items: center;
 }
 
+.opa {
+    opacity: 0.7;
+}
+
 .text-pic {
     position: absolute;
     color: #2c2b2b;

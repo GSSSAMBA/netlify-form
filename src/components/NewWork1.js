@@ -80,7 +80,7 @@ const NewWork1 = () => {
                                     </ul>
                                 </p>
                             </div>
-                            <img className='fond-gris' src={eau} alt=''></img>
+                            <img className='fond-gris opa' src={eau} alt=''></img>
                         </div>
                     </div></a>
                 <a href='http://invader-gss.tk/'>

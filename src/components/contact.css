@@ -412,6 +412,9 @@
         width: 30px;
     }
 
+    .under {
+        background-position: 94% 77%, 0 112%;
+    }
 }
 
 @-webkit-keyframes slide-left {
@@ -512,7 +515,6 @@
     -webkit-transition: background-color 900ms ease-in-out;
     -moz-transition: background-color 900ms ease-in-out;
     -o-transition: background-color 900ms ease-in-out;
-    /* display: block; */
 }
 
 .form-color {
