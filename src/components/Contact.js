@@ -129,7 +129,7 @@ const Contact = () => {
         // validation des champs
         const nameRegex = /^[a-zA-ZàâäéèêëïîôöùûüçÀÂÄÉÈËÏÎÔÖÙÛÜÇ\s'-]+$/;
         const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
-        const messageRegex = /^.{1,300}$/;
+        // const messageRegex = /^.{1,300}$/;
 
         let isValid = true;
         if (!nameRegex.test(formState.name)) {
@@ -140,10 +140,10 @@ const Contact = () => {
             isValid = false;
             alert('Veuillez entrer une adresse e-mail valide.');
         }
-        if (!messageRegex.test(formState.message)) {
-            isValid = false;
-            alert('Veuillez entrer un message valide (maximum 300 caractères).');
-        }
+        // if (!messageRegex.test(formState.message)) {
+        //     isValid = false;
+        //     alert('Veuillez entrer un message valide (maximum 300 caractères).');
+        // }
 
         if (isValid) {
             // envoi du formulaire
