@@ -420,16 +420,20 @@
 
 .gris {
     color: lightgray;
-    text-shadow: 1px 1px 2px black;
+    /* text-shadow: 1px 1px 2px black; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .shade {
-    text-shadow: 1px 1px 2px black;
+    /* text-shadow: 1px 1px 2px black; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .white {
     color: white;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .blue {

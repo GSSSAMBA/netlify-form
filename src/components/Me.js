@@ -11,7 +11,7 @@ const Me = () => {
         <div>
             <div className='global-me'>
                 <h4 id='aboutme2' className="aboutme4">
-                    <span className="underline2">ABOUT ME <i class="fa-solid fa-address-card"></i></span>
+                    <span className="underline2">ABOUT ME <i className="fa-solid fa-address-card"></i></span>
                 </h4>
                 <div className='me-container'>
                     <div className='between'>
@@ -29,7 +29,7 @@ const Me = () => {
                 </div>
                 <div className='me-container2'>
                     <div className='me-me2 radius  '>
-                        <p className='hob'>CV EN BREF</p>
+                        <p className='hob marge2'>CV EN BREF</p>
                         <p className='hob-para'>
                             Par le passé j'ai été directeur de plusieurs restaurant.
                             <br />J'ai égalemment eu la chance de lancer un atelier cycle avec une démarche eco-citoyenne projet
@@ -45,7 +45,7 @@ const Me = () => {
                         </p>
                     </div>
                     <div className='me-me3 radius '>
-                        <p className='hob'>PENDANT MON TEMPS LIBRE</p>
+                        <p className='hob marge'>PENDANT MON TEMPS LIBRE</p>
                         <p className='hob-para'>
                             Course à pied, vélo, football,handball cinéma, théatre et surtout refaire le monde entre amis.
                             <br />En bon père de famille evidemment les balades en foret.

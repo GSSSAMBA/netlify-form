@@ -71,6 +71,7 @@
 .p {
     font-weight: 700;
     text-align: center;
+    padding: 15px;
     /* opacity: 0.9; */
 }
 

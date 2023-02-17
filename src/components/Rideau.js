@@ -36,7 +36,7 @@ function Rideau() {
                 {!buttonClicked && (
                     <div>
                         <h4 id='aboutme' className="aboutme titre-hobbies">
-                            <span className="underline">KNOWLEDGE <i className="fa-solid fa-code"></i></span>
+                            <span className="underline3">KNOWLEDGE <i className="fa-solid fa-code"></i></span>
                         </h4>
 
                         <div className="aboutme2 titre-hobbies2">Désireux d'en savoir plus ??</div>
@@ -50,41 +50,42 @@ function Rideau() {
 
                     <div className="globe-box">
                         {/* <img className='codex' src={sauvage} alt=''></img> */}
-                        <div className="globe-text">Requete API <i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Creation API<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">FETCH/AXIOS<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Cryptage MDP<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">COOKIES<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">token<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Creer des bases de donnees<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Import/export BDD<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Creer un serveur<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Normes RGPD<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">GET/POST/UPDATE/DELETE<i class="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Requete API <i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Creation API<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">FETCH/AXIOS<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Cryptage MDP<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">COOKIES<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">token<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Creer des bases de donnees<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Import/export BDD<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Creer un serveur<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Normes RGPD<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">GET/POST/UPDATE/DELETE<i className="fa-solid fa-check-to-slot green"></i></div>
                     </div>
                     <div className="globe-box">
                         {/* <img className='codex' src={sauvage} alt=''></img> */}
-                        <div className="globe-text">Hook React<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Responsive design<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Flexbox/Grid<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">REDUX/STORE<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Media-queries<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Utilisation du terminal<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">GITHUB<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Deploiement<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Netlify/Heroku/Ionos<i class="fa-solid fa-check-to-slot green"></i></div></div>
+                        <div className="globe-text">Hook React<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Responsive design<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Flexbox/Grid<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">REGEX<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">REDUX/STORE<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Media-queries<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Utilisation du terminal<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">GITHUB<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Deploiement<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Netlify/Heroku/Ionos<i className="fa-solid fa-check-to-slot green"></i></div></div>
                     <div className="globe-box">
                         {/* <img className='codex' src={sauvage} alt=''></img> */}
-                        <div className="globe-text">Github Pages/FireBase<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">OPERATEUR TERNAIRE<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Rendu conditionnelle<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Algorithmie J-S <i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Postman<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">ChatGpt<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">STACK-OVERFLOW<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">CRUD<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">MERN<i class="fa-solid fa-check-to-slot green"></i></div>
-                        <div className="globe-text">Envoi de formulaire<i class="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Github Pages/FireBase<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">OPERATEUR TERNAIRE<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Rendu conditionnelle<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Algorithmie J-S <i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Postman<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">ChatGpt<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">STACK-OVERFLOW<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">CRUD<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">MERN<i className="fa-solid fa-check-to-slot green"></i></div>
+                        <div className="globe-text">Envoi de formulaire<i className="fa-solid fa-check-to-slot green"></i></div>
                     </div>
                 </div>
 

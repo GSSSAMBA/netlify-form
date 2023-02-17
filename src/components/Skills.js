@@ -16,11 +16,11 @@ const Skills = () => {
     return (
         <div>
             <div className='big-deal-container'>
-                <h4 id='skills' className="work"><span className="underline">SKILLS <i class="fa-solid fa-screwdriver-wrench"></i></span> </h4>
+                <h4 id='skills' className="work"><span className="underline">SKILLS <i className="fa-solid fa-screwdriver-wrench"></i></span> </h4>
                 <div className='big-deal'>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-react turn andjaro"></i>
+                            <i className="fa-brands fa-react turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -33,7 +33,7 @@ const Skills = () => {
                     </div>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-square-js turn andjaro"></i>
+                            <i className="fa-brands fa-square-js turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -46,7 +46,7 @@ const Skills = () => {
                     </div>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-node turn andjaro"></i>
+                            <i className="fa-brands fa-node turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -63,7 +63,7 @@ const Skills = () => {
                 <div className='big-deal'>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-html5 turn andjaro"></i>
+                            <i className="fa-brands fa-html5 turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -76,7 +76,7 @@ const Skills = () => {
                     </div>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-css3-alt turn andjaro"></i>
+                            <i className="fa-brands fa-css3-alt turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -89,7 +89,7 @@ const Skills = () => {
                     </div>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-sass turn andjaro"></i>
+                            <i className="fa-brands fa-sass turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -106,7 +106,7 @@ const Skills = () => {
                 <div className='big-deal'>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-solid fa-database turn andjaro"></i>
+                            <i className="fa-solid fa-database turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -119,7 +119,7 @@ const Skills = () => {
                     </div>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-github turn andjaro"></i>
+                            <i className="fa-brands fa-github turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -132,7 +132,7 @@ const Skills = () => {
                     </div>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-trello turn andjaro"></i>
+                            <i className="fa-brands fa-trello turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -149,7 +149,7 @@ const Skills = () => {
                 <div className='big-deal'>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-brands fa-php turn andjaro"></i>
+                            <i className="fa-brands fa-php turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>
@@ -162,7 +162,7 @@ const Skills = () => {
                     </div>
                     <div className='deal-container'>
                         <div className='deal-container1'>
-                            <i class="fa-solid fa-table turn andjaro"></i>
+                            <i className="fa-solid fa-table turn andjaro"></i>
                             <div className='deal-content'>
                                 <div className='small-content'>
                                     <div className='small-content'>

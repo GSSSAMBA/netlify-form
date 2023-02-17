@@ -170,108 +170,110 @@ const NewWork1 = () => {
                         </div>
                     </div> */}
                     </div></a>
-                <div className='taille-box2'>
-                    <img className='image-une' src={banniere} alt="imgfond" ></img>
-                    <img className='image-taille abso3' src={KANAP} alt="imgfond" ></img>
-                    {/* <div className='the-box'></div> */}
-                    <div className='petit-contenu '>
-                        <p className='text-pic'>
-                            <span className='under2'>KANAP</span>
-                        </p>
-                        <div className='liste-div marge'>
-                            <p>
-                                <ul className='liste puce3'>
-                                    <li className='puce'>Création d'un site E-commerce de vente de canapé.</li><br></br>
-                                    <li className='puce1'>Panier/Formulaire client/Normes de sécurité.</li><br></br>
-                                    <li className='puce'>Generation automatisé de N° de commande.</li><br></br>
-                                    <li className='puce'>Deploiement à venir.</li><br></br>
-                                    <li className='puce1'>JAVASCRIPT</li><br></br>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                <a href='https://github.com/GSSSAMBA/kanap'>
+                    <div className='taille-box2'>
+                        <img className='image-une' src={banniere} alt="imgfond" ></img>
+                        <img className='image-taille abso3' src={KANAP} alt="imgfond" ></img>
+                        {/* <div className='the-box'></div> */}
+                        <div className='petit-contenu '>
+                            <p className='text-pic'>
+                                <span className='under2'>KANAP</span>
                             </p>
+                            <div className='liste-div marge'>
+                                <p>
+                                    <ul className='liste puce3'>
+                                        <li className='puce'>Création d'un site E-commerce de vente de canapé.</li><br></br>
+                                        <li className='puce1'>Panier/Formulaire client/Normes de sécurité.</li><br></br>
+                                        <li className='puce'>Generation automatisé de N° de commande.</li><br></br>
+                                        <li className='puce'>Deploiement à venir.</li><br></br>
+                                        <li className='puce1'>JAVASCRIPT</li><br></br>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={grey} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={grey} alt=''></img>
-                    </div>
 
-                </div></div>
+                    </div></a></div>
             {/* </div> */}
             <div className='work-container'>
-                <div className='taille-box2'><img className='image-une' src={media} alt="imgfond" ></img>
-                    <div className='the-box'></div>
-                    <div className='petit-contenu1 black'>
-                        <p className='text-pic2 media-text'>
-                            <span className='under2'>GROUPOMANIA</span>
-                        </p>
-                        <div className='liste-div3'>
-                            <p>
-                                <ul className='liste puce3' >
-                                    <li className=''>Réseau social d'entreprise
-                                        <br></br>
-                                        <br></br>
-                                        Discutez entre collaborateurs avec votre propre réseau social
-                                        <br></br>
-                                        <br></br>
-                                        <li className='puce'>Deploiement à venir.</li>
-                                        <br></br>
-                                        CRUD/MERD
-                                        <br></br>
-                                        <br></br>
-                                        REACT JS/NODE JS</li>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                <a href='https://github.com/GSSSAMBA/GROUPOMANIA'>
+                    <div className='taille-box2'><img className='image-une' src={media} alt="imgfond" ></img>
+                        <div className='the-box'></div>
+                        <div className='petit-contenu1 black'>
+                            <p className='text-pic2 media-text'>
+                                <span className='under2'>GROUPOMANIA</span>
                             </p>
+                            <div className='liste-div3'>
+                                <p>
+                                    <ul className='liste puce3' >
+                                        <li className=''>Réseau social d'entreprise
+                                            <br></br>
+                                            <br></br>
+                                            Discutez entre collaborateurs avec votre propre réseau social
+                                            <br></br>
+                                            <br></br>
+                                            <li className='puce'>Deploiement à venir.</li>
+                                            <br></br>
+                                            CRUD/MERD
+                                            <br></br>
+                                            <br></br>
+                                            REACT JS/NODE JS</li>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={pastel} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={pastel} alt=''></img>
-                    </div>
-                    {/* <div className='petit-contenu'>
+                        {/* <div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={space1} alt="imgfond" ></img>
                         </div>
                     </div> */}
-                </div>
+                    </div></a>
                 {/* <div className='taille-box2'><img className='image-une' src={piment} alt="imgfond" ></img>
                     <div className='the-box'></div><div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={mur} alt="imgfond" ></img>
                         </div>
                     </div>
-                </div> */}
-                <div className='taille-box2'><img className='image-une' src={piment} alt="imgfond" ></img>
-                    <div className='the-box'></div>
-                    <div className='petit-contenu1 white'>
-                        <p className='text-pic2 piquante-text'>
-                            <span className='under2'>PIQUANTE</span>
-                        </p>
-                        <div className='liste-div4'>
-                            <p>
-                                <ul className='liste puce3' >
-                                    <li className=''>Creation d'une API REST
-                                        <br></br>
-                                        <br></br>
-                                        Authentification utilisateurs/Conformité RGPD
-                                        <br></br>
-                                        <br></br>
-                                        <li className='puce'>Cryptage MDP utilisateurs</li>
-                                        <br></br>
-                                        Deploiement à venir.
-                                        <br></br>
-                                        <br></br>
-                                        NODE JS
-                                        <br></br>
-                                        <br></br>
-                                    </li>
-                                    {/* <li className='puce'>TEXT</li> */}
-                                </ul>
+                </div> */}<a href='https://0h-my-food.netlify.app/'>
+                    <div className='taille-box2'><img className='image-une' src={piment} alt="imgfond" ></img>
+                        <div className='the-box'></div>
+                        <div className='petit-contenu1 white'>
+                            <p className='text-pic2 piquante-text'>
+                                <span className='under2'>PIQUANTE</span>
                             </p>
+                            <div className='liste-div4'>
+                                <p>
+                                    <ul className='liste puce3' >
+                                        <li className=''>Creation d'une API REST
+                                            <br></br>
+                                            <br></br>
+                                            Authentification utilisateurs/Conformité RGPD
+                                            <br></br>
+                                            <br></br>
+                                            <li className='puce'>Cryptage MDP utilisateurs</li>
+                                            <br></br>
+                                            Deploiement à venir.
+                                            <br></br>
+                                            <br></br>
+                                            NODE JS
+                                            <br></br>
+                                            <br></br>
+                                        </li>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={piment2} alt=''></img>
                         </div>
-                        <img className='fond-gris' src={piment2} alt=''></img>
-                    </div>
-                    {/* <div className='petit-contenu'>
+                        {/* <div className='petit-contenu'>
                         <div className=''>
                             <img className='image-taille' src={space1} alt="imgfond" ></img>
                         </div>
                     </div> */}
-                </div>
+                    </div></a>
             </div>
         </div>
     );
