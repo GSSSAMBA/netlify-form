@@ -27,6 +27,7 @@ import piment2 from '../images/piment2.jpg'
 import noir from '../images/noir.jpg'
 import pixel from '../images/pixel.jpg'
 import eau from '../images/eau.webp'
+import agenceweb from '../images/agenceweb.webp'
 
 const NewWork1 = () => {
     return (
@@ -85,7 +86,8 @@ const NewWork1 = () => {
                             <img className='fond-gris opa' src={eau} alt=''></img>
                         </div>
                     </div></a>
-                <a href='http://invader-gss.tk/'>
+                {/* <a href='http://invader-gss.tk/'> */}
+                <a href='https://will-invader.netlify.app/'>
                     <div className='taille-box2'><img className='image-une' src={invader10} alt="imgfond" ></img>
                         <div className='the-box'></div>
                         <div className='petit-contenu1 white'>
@@ -177,9 +179,9 @@ const NewWork1 = () => {
                         <img className='image-une' src={agency} alt="imgfond" ></img>
                         <img className='image-taille abso3 pixel' src={pixel} alt="imgfond" ></img>
                         {/* <div className='the-box'></div> */}
-                        <div className='petit-contenu '>
+                        <div className='petit-contenu gris '>
                             <p className='text-pic vingts'>
-                                <span className='under2'>PixelScope</span>
+                                <span className='under1 gris'>PixelScope</span>
                             </p>
                             <div className='liste-div marge'>
                                 <p>
@@ -192,7 +194,7 @@ const NewWork1 = () => {
                                     </ul>
                                 </p>
                             </div>
-                            <img className='fond-gris' src={grey} alt=''></img>
+                            <img className='fond-gris' src={agenceweb} alt=''></img>
                         </div>
 
                     </div></a></div>
