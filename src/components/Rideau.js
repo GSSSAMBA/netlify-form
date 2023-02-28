@@ -40,7 +40,7 @@ function Rideau() {
                         </h4>
 
                         <div className="aboutme2 titre-hobbies2">Désireux d'en savoir plus ??</div>
-                        <div className="aboutme3 titre-hobbies3">Clique et découvre quelque une de mes compétences techniques</div>
+                        <div className="aboutme3 titre-hobbies3">Cliquez et découvrez quelques-unes de mes compétences techniques</div>
                     </div>
                 )}
 
