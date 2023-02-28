@@ -237,6 +237,10 @@
     align-items: center;
 }
 
+.marginpuce {
+    margin-top: 35px;
+}
+
 .opa {
     opacity: 0.7;
 }
@@ -560,8 +564,12 @@
         font-size: 18px;
     }
 
-    .vingt {
+    .vingts {
         margin-left: 28%;
+    }
+
+    .marge {
+        margin-top: 20px;
     }
 }
 
