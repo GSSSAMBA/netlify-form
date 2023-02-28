@@ -16,6 +16,7 @@ import media from '../images/media.png'
 import piment from '../images/piment.webp'
 import grey from '../images/grey.jpg'
 import flix1 from '../images/flix1.webp'
+import agency from '../images/agency.jpg'
 // import ischia from '../images/ischia.jpg'
 // import space1 from '../images/space1.webp'
 import yanko from '../images/yanko.jpg'
@@ -24,6 +25,7 @@ import pastel from '../images/pastel.jpg'
 import dalmata from '../images/dalmata.jfif'
 import piment2 from '../images/piment2.jpg'
 import noir from '../images/noir.jpg'
+import pixel from '../images/pixel.jpg'
 import eau from '../images/eau.webp'
 
 const NewWork1 = () => {
@@ -170,23 +172,22 @@ const NewWork1 = () => {
                         </div>
                     </div> */}
                     </div></a>
-                <a href='https://github.com/GSSSAMBA/kanap'>
+                <a href='https://pixscope.netlify.app/'>
                     <div className='taille-box2'>
-                        <img className='image-une' src={banniere} alt="imgfond" ></img>
-                        <img className='image-taille abso3' src={KANAP} alt="imgfond" ></img>
+                        <img className='image-une' src={agency} alt="imgfond" ></img>
+                        <img className='image-taille abso3 pixel' src={pixel} alt="imgfond" ></img>
                         {/* <div className='the-box'></div> */}
                         <div className='petit-contenu '>
-                            <p className='text-pic'>
-                                <span className='under2'>KANAP</span>
+                            <p className='text-pic vingts'>
+                                <span className='under2'>PixelScope</span>
                             </p>
                             <div className='liste-div marge'>
                                 <p>
-                                    <ul className='liste puce3'>
-                                        <li className='puce'>Création d'un site E-commerce de vente de canapé.</li><br></br>
-                                        <li className='puce1'>Panier/Formulaire client/Normes de sécurité.</li><br></br>
-                                        <li className='puce'>Generation automatisé de N° de commande.</li><br></br>
-                                        <li className='puce'>Deploiement à venir.</li><br></br>
-                                        <li className='puce1'>JAVASCRIPT</li><br></br>
+                                    <ul className='liste puce3 marginpuce'>
+                                        <li className='puce'>Création d'un site vitrine pour agence Web</li><br></br>
+                                        <li className='puce1'>Desktop Only</li><br></br>
+                                        <li className='puce'>Parallax effect</li><br></br>
+                                        <li className='puce'>HTML/CSS</li><br></br>
                                         {/* <li className='puce'>TEXT</li> */}
                                     </ul>
                                 </p>
@@ -197,6 +198,31 @@ const NewWork1 = () => {
                     </div></a></div>
             {/* </div> */}
             <div className='work-container'>
+                <a href='https://kanap-france.netlify.app/'>
+                    <div className='taille-box2'>
+                        <img className='image-une' src={banniere} alt="imgfond" ></img>
+                        <img className='image-taille abso3' src={KANAP} alt="imgfond" ></img>
+                        {/* <div className='the-box'></div> */}
+                        <div className='petit-contenu '>
+                            <p className='text-pic'>
+                                <span className='under2'>KANAP</span>
+                            </p>
+                            <div className='liste-div marge'>
+                                <p>
+                                    <ul className='liste puce3 marginpuce'>
+                                        <li className='puce'>Création d'un site E-commerce de vente de canapé.</li><br></br>
+                                        <li className='puce1'>Panier/Formulaire client/Normes de sécurité.</li><br></br>
+                                        <li className='puce'>Generation automatisé de N° de commande.</li><br></br>
+                                        <li className='puce1'>JAVASCRIPT</li><br></br>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={grey} alt=''></img>
+                        </div>
+
+                    </div></a>
+
                 <a href='https://github.com/GSSSAMBA/GROUPOMANIA'>
                     <div className='taille-box2'><img className='image-une' src={media} alt="imgfond" ></img>
                         <div className='the-box'></div>
@@ -237,7 +263,8 @@ const NewWork1 = () => {
                             <img className='image-taille' src={mur} alt="imgfond" ></img>
                         </div>
                     </div>
-                </div> */}<a href='https://0h-my-food.netlify.app/'>
+                </div> */}
+                <a href='https://0h-my-food.netlify.app/'>
                     <div className='taille-box2'><img className='image-une' src={piment} alt="imgfond" ></img>
                         <div className='the-box'></div>
                         <div className='petit-contenu1 white'>
@@ -274,6 +301,7 @@ const NewWork1 = () => {
                         </div>
                     </div> */}
                     </div></a>
+
             </div>
         </div>
     );

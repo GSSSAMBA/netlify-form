@@ -482,6 +482,10 @@
         width: 265px;
     }
 
+    .marginpuce {
+        margin-top: 41px;
+    }
+
     .text-pic {
         margin-left: 35%;
         font-size: 25px;
@@ -553,4 +557,13 @@
     .refonte {
         font-size: 18px;
     }
+
+    .vingt {
+        margin-left: 28%;
+    }
+}
+
+.pixel {
+    width: 180px;
+    height: 190px;
 }
