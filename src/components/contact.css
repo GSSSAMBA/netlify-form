@@ -473,7 +473,8 @@
 
 .contact__form button {
     font-size: 1.2rem;
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
+    /* border-radius: 1.5rem; */
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
@@ -491,9 +492,9 @@
 
 .contact__form button:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    /* -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1); */
+    /* transform: scale(1.1); */
     background-color: #faf2f2;
     color: black;
     font-weight: 700;
@@ -536,7 +537,8 @@
 
 .champ {
     border: 2px solid black;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
+    border-radius: 8px;
 }
 
 .center-btn {

@@ -22,7 +22,8 @@ import agency from '../images/agency.jpg'
 import yanko from '../images/yanko.jpg'
 import pastel from '../images/pastel.jpg'
 // import food from '../images/food.webp'
-import dalmata from '../images/dalmata.jfif'
+// import dalmata from '../images/dalmata.jfif'
+import ducasse from '../images/ducasse.jpg'
 import piment2 from '../images/piment2.jpg'
 import noir from '../images/noir.jpg'
 import pixel from '../images/pixel.jpg'
@@ -97,9 +98,12 @@ const NewWork1 = () => {
                             <div className='liste-div1'>
                                 <p>
                                     <ul className='liste refonte '>
-                                        <li className='puce'>Reproduction du jeu<br></br> <br></br>SPACE INVADER</li><br></br>
+                                        <li className='puce'>Space invader Clone<br></br> <br></br></li>
                                         <li className='puce1'>Only Desktop.</li><br></br>
                                         <li className='puce'>JAVASCRIPT.</li><br></br>
+                                        {/* <li className='puce'>Reproduction du jeu<br></br> <br></br>SPACE INVADER</li><br></br>
+                                        <li className='puce1'>Only Desktop.</li><br></br>
+                                        <li className='puce'>JAVASCRIPT.</li><br></br> */}
                                         {/* <li className='puce'>TEXT</li> */}
                                     </ul>
                                 </p>
@@ -166,7 +170,7 @@ const NewWork1 = () => {
                                     </ul>
                                 </p>
                             </div>
-                            <img className='fond-gris' src={dalmata} alt=''></img>
+                            <img className='fond-gris' src={ducasse} alt=''></img>
                         </div>
                         {/* <div className='petit-contenu'>
                         <div className=''>
@@ -266,7 +270,7 @@ const NewWork1 = () => {
                         </div>
                     </div>
                 </div> */}
-                <a href='https://0h-my-food.netlify.app/'>
+                <a href='https://github.com/GSSSAMBA'>
                     <div className='taille-box2'><img className='image-une' src={piment} alt="imgfond" ></img>
                         <div className='the-box'></div>
                         <div className='petit-contenu1 white'>
