@@ -31,8 +31,8 @@ const Me = () => {
                     <div className='me-me2 radius  '>
                         <p className='hob marge2'>CV EN BREF</p>
                         <p className='hob-para'>
-                            Par le passé j'ai été directeur de plusieurs restaurant.
-                            <br />J'ai égalemment eu la chance de lancer un atelier cycle avec une démarche eco-citoyenne projet
+                            Par le passé j'ai été directeur de plusieurs restaurants.
+                            <br />J'ai égalemment eu la chance de lancer un atelier cycle avec une démarche eco-citoyenne, projet
                             qui à recu le soutien de la region Ile-de-france.
                         </p>
                     </div>
