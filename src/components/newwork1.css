@@ -241,6 +241,10 @@
     margin-top: 35px;
 }
 
+.marginpuce12 {
+    margin-top: 35px;
+}
+
 .opa {
     opacity: 0.7;
 }
@@ -252,6 +256,18 @@
     font-size: 35px;
     z-index: 2;
     margin-left: 40%;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.text-pic12 {
+    position: absolute;
+    color: #2c2b2b;
+    ;
+    font-size: 35px;
+    z-index: 2;
+    margin-left: 29%;
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
@@ -512,8 +528,17 @@
         margin-top: 41px;
     }
 
+    .marginpuce12 {
+        margin-top: 90px;
+    }
+
     .text-pic {
         margin-left: 35%;
+        font-size: 25px;
+    }
+
+    .text-pic12 {
+        margin-left: 20%;
         font-size: 25px;
     }
 

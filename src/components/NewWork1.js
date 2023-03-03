@@ -17,6 +17,7 @@ import piment from '../images/piment.webp'
 import grey from '../images/grey.jpg'
 import flix1 from '../images/flix1.webp'
 import agency from '../images/agency.jpg'
+import spotify from '../images/spotify.jpg'
 // import ischia from '../images/ischia.jpg'
 // import space1 from '../images/space1.webp'
 import yanko from '../images/yanko.jpg'
@@ -211,7 +212,7 @@ const NewWork1 = () => {
                         {/* <div className='the-box'></div> */}
                         <div className='petit-contenu '>
                             <p className='text-pic'>
-                                <span className='under2'>KANAP</span>
+                                <span className='under2 '>KANAP</span>
                             </p>
                             <div className='liste-div marge'>
                                 <p>
@@ -225,6 +226,29 @@ const NewWork1 = () => {
                                 </p>
                             </div>
                             <img className='fond-gris' src={grey} alt=''></img>
+                        </div>
+
+                    </div></a>
+                <a href='https://mini-lecteur-audio.netlify.app/'>
+                    <div className='taille-box2'>
+                        <img className='image-une' src={spotify} alt="imgfond" ></img>
+                        {/* <img className='image-taille abso3' src={KANAP} alt="imgfond" ></img> */}
+                        {/* <div className='the-box'></div> */}
+                        <div className='petit-contenu '>
+                            <p className='text-pic12'>
+                                <span className='under2 white'>MINI SPOTIFY</span>
+                            </p>
+                            <div className='liste-div marge white'>
+                                <p>
+                                    <ul className='liste puce3 marginpuce12'>
+                                        <li className='puce'>Création d'un lecteur audio.</li><br></br>
+                                        <li className='puce1'>Musique libre de droit.</li><br></br>
+                                        <li className='puce'>NEXT-JS/TYPESCRIPT.</li><br></br>
+                                        {/* <li className='puce'>TEXT</li> */}
+                                    </ul>
+                                </p>
+                            </div>
+                            <img className='fond-gris' src={noir} alt=''></img>
                         </div>
 
                     </div></a>
