@@ -21,8 +21,7 @@ const Me = () => {
                         <div className='me-me2 rotate1'>
                             <p className='hob'>ABOUT ME</p>
                             <p className='hob-para'>Passioné d'informatique de multimédia et de nouvelles technologies je me consacre
-                                à plein temps au developpement web et à la création de site.<br />Avec un penchant pour le
-                                développement FRONT-END
+                                à plein temps au developpement web et à la création de site.<br />
                             </p>
                         </div>
                     </div>
